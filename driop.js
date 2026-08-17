@@ -1,5 +1,5 @@
 import { test } from '@playwright/test';
-test('validate Dropdown handling', async ({ page }) => {
+test('validate Dropdown handling in the application', async ({ page }) => {
     await page.goto('https://letcode.in/dropdowns/' )
     //single dropdown
     
